@@ -5,3 +5,4 @@ echo $page
 
 ruby bahn.rb 'Oswaldsgarten, Gießen' 'Marburg Süd' > $page
 lynx $page
+rm $page
